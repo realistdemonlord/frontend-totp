@@ -1,5 +1,4 @@
 import { generateTOTP, getRemainingSeconds } from './totp.js';
-import './style.css';
 
 const RADIUS = 54;
 const CIRCUMFERENCE = 2 * Math.PI * RADIUS;
